@@ -43,6 +43,8 @@ This command will open the (Electron) Cypress Test Runner and run your tests one
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | addCypressTestScripts | This will add Cypress `open` and `run` command scripts to your `package.json`. Include `--addCypressTestScripts` in your `ng add` command.                                                                  |
 | noBuilder             | This will skip the builder addition, leaving the `angular.json` file unmodified and requiring you to run Cypress from the command line or through your IDE. Include `--noBuilder` in your `ng add` command. |
+| removeProtractor      | This will skip the removal of protractor. Must be set to `false` if you've already removed it, or schematic will fail with `Path "/e2e" does not exist.`! |
+
 
 ## Issues
 
